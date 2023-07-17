@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3D Objects">
+      <UniqueIdentifier>{8d3ab09f-c04e-4dcd-99fb-ac2b6affa7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{ad70a6f5-79df-4c2d-b338-3ce3fc5da9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{deaa4159-f88d-4e4b-9d81-46d614014321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Asset Import">
+      <UniqueIdentifier>{7f8c4845-4d0d-44d9-a581-972770206fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneGraph">
+      <UniqueIdentifier>{cc15dea8-1655-4901-ba1f-8a160f8d7c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneGraph\Node">
+      <UniqueIdentifier>{98fdd710-8e54-4964-b201-15baf3048299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectXFramework">
+      <UniqueIdentifier>{963d6d4b-f7dc-4819-b3c3-667beaa7d872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture Loading">
+      <UniqueIdentifier>{e7318867-0013-4cd7-bdf6-afa73af947dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D Objects\Terrain">
+      <UniqueIdentifier>{f001cf82-6df0-47f2-bd64-d158d6b61dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{0945acda-be80-487b-b3e5-983cf899bacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KeyInput">
+      <UniqueIdentifier>{d37b4418-5857-4b64-944b-42358b16eb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Height Map">
+      <UniqueIdentifier>{21a6a827-6309-4fe4-8541-355ac100517a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderState">
+      <UniqueIdentifier>{e02efbaa-5727-4573-a2fe-f149c46d157e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files\SceneGraph\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidCube.h">
+      <Filter>Header Files\3D Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXFramework.h">
+      <Filter>Header Files\DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCore.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunctions.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Asset Import</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>Header Files\Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainNode.h">
+      <Filter>Header Files\3D Objects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePadController.h">
+      <Filter>Header Files\KeyInput</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Graphics2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="white.png">
+      <Filter>Header Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidCube.cpp">
+      <Filter>Header Files\3D Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXFramework.cpp">
+      <Filter>Header Files\DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshNode.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Header Files\Asset Import</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>Header Files\Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainNode.cpp">
+      <Filter>Header Files\3D Objects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Header Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePadController.cpp">
+      <Filter>Header Files\KeyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadHeightMap.c">
+      <Filter>Header Files\Height Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.c">
+      <Filter>Header Files\RenderState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+    <Text Include="TexturedShaders.hlsl">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HeightMap.raw">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
